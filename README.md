@@ -3,6 +3,10 @@
 
 Inventory accounting service for small businesses
 
+- version 0.0.3a (/03/2020)
+
+Add document "invoice"
+
 - version 0.0.2a (23/03/2020)
 
 Add catalog item group goods and item goods.

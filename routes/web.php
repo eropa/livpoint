@@ -21,7 +21,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::prefix('admin')->group(function () {
+Route::prefix('upanel')->group(function () {
     // Пользователи
     Route::get('users','UserController@index')->name('users.index');
     Route::get('users/create','UserController@add')->name('users.add');
@@ -55,4 +55,8 @@ Route::prefix('admin')->group(function () {
     Route::get('ass/delete/{id}','AssController@delete')->name('ass.delete');
     Route::get('ass/{id}/edit','AssController@edit')->name('ass.edit');
     Route::post('ass/{id}/update','AssController@update')->name('ass.update');
+
+    Route::get('invoices','PrixodheadController@index')->name('prixod.index');
+    Route::get('invoices/create','PrixodheadController@add')->name('prixod.add');
+
 });

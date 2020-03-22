@@ -4,11 +4,16 @@ return [
     'edit'=>'Редактировать',
     'delete'=>'Удалить',
     'add'=>'Добавить',
+
     'menu.catalog' => 'Справочник',
     'menu.user'=> 'Пользователи',
     'menu.sklad'=> 'Торговые точки',
     'menu.clients'=> 'Клиенты',
     'menu.grass'=> 'Товар',
+    'menu.docum'=> 'Документы',
+    'menu.prixod'=> 'Приходные документы',
+
+
     'yes'=>'да',
     'no'=>'нет',
 
@@ -53,5 +58,8 @@ return [
     'ass.page.index'=>'Товар',
     'ass.page.index.tabname'=>'Наименование',
     'ass.page.index.tabbar'=>'Бар-код',
+
+    'prixod'=>'Список приходов',
+    'prixod.add'=>'Создать приход',
 
 ];
