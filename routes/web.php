@@ -44,6 +44,15 @@ Route::prefix('admin')->group(function () {
     // Группа товара и товар
     Route::get('grass','GrassController@index')->name('grass.index');
     Route::get('grass/create','GrassController@add')->name('grass.add');
+    Route::post('grass/store','GrassController@store')->name('grass.store');
+    Route::get('grass/delete/{id}','GrassController@delete')->name('grass.delete');
+    Route::get('grass/{id}','GrassController@edit')->name('grass.edit');
+    Route::post('grass/{id}','GrassController@update')->name('grass.update');
 
-
+    Route::get('ass/{id}','AssController@index')->name('ass.index');
+    Route::get('ass/{idgroup}/create','AssController@add')->name('ass.add');
+    Route::post('ass/store','AssController@store')->name('ass.store');
+    Route::get('ass/delete/{id}','AssController@delete')->name('ass.delete');
+    Route::get('ass/{id}/edit','AssController@edit')->name('ass.edit');
+    Route::post('ass/{id}/update','AssController@update')->name('ass.update');
 });

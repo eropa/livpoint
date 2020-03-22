@@ -9,6 +9,8 @@ return [
     'menu.sklad'=> 'Торговые точки',
     'menu.clients'=> 'Клиенты',
     'menu.grass'=> 'Товар',
+    'yes'=>'да',
+    'no'=>'нет',
 
     'users.page.index'=>'Список пользователей',
     'users.page.index.tabname'=>'Ф.И.О',
@@ -41,11 +43,15 @@ return [
 
     'grass.page.index'=>'Группа товара',
     'grass.page.index.tabname'=>'гр.товара',
+    'grass.page.index.tabvis'=>'видимость',
     'grass.page.add'=>'Добавить гр.товара',
+    'grass.page.edit'=>'Редактировать группу товара',
     'grass.create'=>'гр.товара создана',
     'grass.delete'=>'гр.товара удалена',
     'grass.update'=>'гр.товара обнавлена',
 
     'ass.page.index'=>'Товар',
+    'ass.page.index.tabname'=>'Наименование',
+    'ass.page.index.tabbar'=>'Бар-код',
 
 ];
