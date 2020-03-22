@@ -41,5 +41,9 @@ Route::prefix('admin')->group(function () {
     Route::get('client/create','ClientController@add')->name('clients.add');
     Route::post('client/store','ClientController@store')->name('clients.store');
     Route::get('client/delete/{id}','ClientController@delete')->name('clients.delete');
+    // Группа товара и товар
+    Route::get('grass','GrassController@index')->name('grass.index');
+    Route::get('grass/create','GrassController@add')->name('grass.add');
+
 
 });

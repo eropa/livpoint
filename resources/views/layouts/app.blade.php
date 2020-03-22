@@ -42,6 +42,7 @@
                                 <a class="dropdown-item" href="{{ route('users.index') }}"> {{ __('messages.menu.user') }}</a>
                                 <a class="dropdown-item" href="{{ route('sklads.index') }}"> {{ __('messages.menu.sklad') }}</a>
                                 <a class="dropdown-item" href="{{ route('clients.index') }}"> {{ __('messages.menu.clients') }}</a>
+                                <a class="dropdown-item" href="{{ route('grass.index') }}"> {{ __('messages.menu.grass') }}</a>
                             </div>
                         </li>
 

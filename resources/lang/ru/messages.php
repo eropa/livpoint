@@ -8,6 +8,7 @@ return [
     'menu.user'=> 'Пользователи',
     'menu.sklad'=> 'Торговые точки',
     'menu.clients'=> 'Клиенты',
+    'menu.grass'=> 'Товар',
 
     'users.page.index'=>'Список пользователей',
     'users.page.index.tabname'=>'Ф.И.О',
@@ -37,5 +38,14 @@ return [
     'client.create'=>'Контрагент/клиент создан',
     'client.delete'=>'Контрагент/клиент удален',
     'client.update'=>'Контрагент/клиент обнавлен',
+
+    'grass.page.index'=>'Группа товара',
+    'grass.page.index.tabname'=>'гр.товара',
+    'grass.page.add'=>'Добавить гр.товара',
+    'grass.create'=>'гр.товара создана',
+    'grass.delete'=>'гр.товара удалена',
+    'grass.update'=>'гр.товара обнавлена',
+
+    'ass.page.index'=>'Товар',
 
 ];
